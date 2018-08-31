@@ -1,0 +1,52 @@
+{
+  "name": "event",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "venue": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "cost": {
+      "type": "number"
+    },
+    "lineup": {
+      "type": [
+        "string"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "poster": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "age-restriction": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
